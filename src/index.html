@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game (Rust + WASM)</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #333;
+            color: white;
+        }
+        canvas {
+            border: 2px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake com Rust e WebAssembly</h1>
+    <p>Use as setas do teclado para mover.</p>
+    <canvas id="game-canvas"></canvas>
+    <script src="./bootstrap.js"></script>
+</body>
+</html>
